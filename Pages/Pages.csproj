@@ -13,4 +13,9 @@
     <ProjectReference Include="..\AutomationFramework\AutomationFramework.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Home\" />
+    <Folder Include="Login\" />
+  </ItemGroup>
+
 </Project>

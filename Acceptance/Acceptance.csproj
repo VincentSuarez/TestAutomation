@@ -19,4 +19,11 @@
     <ProjectReference Include="..\Pages\Pages.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Utils\" />
+    <Folder Include="TestData\TestDataClasses\" />
+    <Folder Include="TestData\" />
+    <Folder Include="TestCases\" />
+  </ItemGroup>
+
 </Project>
