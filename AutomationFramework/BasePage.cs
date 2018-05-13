@@ -33,7 +33,7 @@ namespace AutomationFramework
             return driver;
         }
 
-        public static void GoToUrl<T>(RemoteWebDriver driver, string url)
+        public static void GoToUrl(RemoteWebDriver driver, string url)
         {
             driver.Navigate().GoToUrl(url);
             Console.WriteLine($"Navigate to {url}");
